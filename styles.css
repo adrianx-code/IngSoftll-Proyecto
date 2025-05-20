@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor Principal */
+  .container {
+    width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Encabezados */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Grupos de Formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Etiquetas y Entradas */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Botones */
+  button {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Alternador de Formularios */
+  .toggle-form {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .toggle-form a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .navbar-space {
+    padding-top: 100px; 
+} 
+.navcolor {
+  background-color: lightgrey;
+}
+/* Asegura que las imágenes tengan el mismo tamaño */
+.carousel-inner img {
+  width: 600;
+  height: 600;
+  object-fit: cover; /* Asegura que la imagen no se distorsione */
+  border-radius: 10px; /* Para bordes redondeados */
+}
+
+
+/* Centrar el contenido del carrusel */
+.carousel-item-content {
+  text-align: center;
+}
+
+/* Estilo para el nombre debajo de la imagen */
+.carousel-caption {
+  padding: 10px 0;
+}
+
+.carousel-caption h3 {
+  font-size: 1.7rem; /* Ajustar tamaño del texto */
+  margin: 0;
+}
+body.page {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("https://w0.peakpx.com/wallpaper/710/985/HD-wallpaper-vinyl-disk-vinyl-music.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top:100px;
+}
+.content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  max-width: 800px;
+  margin: 100px auto;
+  border-radius: 13px;
+}
+.gallery {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+section{
+  padding-top:100px;
+}
+
+
+
+
